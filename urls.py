@@ -1,9 +1,9 @@
-from django.conf.urls import url
-
-from {{ app_name}} import views
-
+from django.urls import path,include
 
 urlpatterns = [
-    # url(r'^$', views.index_view, name='index'),
-    # url(r'^another/$', views.another_view, name='another'),
+    path('api/', include('{{ app_name}}.api.urls')),
 ]
+
+
+
+
