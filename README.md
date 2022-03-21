@@ -4,5 +4,5 @@ A slightly modified template for django's "django-admin startapp" command. Adds 
 
 ## Usage
 ```
-$ ./manage.py startapp --template=https://github.com/Sicilia04/django-startapp-template/archive/master.zip myapp
+$ ./manage.py startapp --template=https://github.com/5no0p/django-startapp-template/archive/master.zip myapp
 ```
